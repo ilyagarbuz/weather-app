@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper flex justify-center py-32 font-body">
+  <div class="wrapper flex justify-center py-14 font-body">
     <div v-if="isLoading" class="loader"><app-loader /></div>
     <app-error v-else-if="statusError" :message="errorMessage" />
     <div v-else class="w-8/12 md:w-1/2 lg:w-1/3 flex items-center flex-col">
